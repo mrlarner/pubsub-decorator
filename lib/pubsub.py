@@ -2,7 +2,7 @@ SUBSCRIBERS = dict()
 
 def _register_subscriber(event, callback):
     if event in SUBSCRIBERS:
-        SUBSCRIBERS[event].push(callback)
+        SUBSCRIBERS[event].append(callback)
     else:
         SUBSCRIBERS[event] = [callback]
 
