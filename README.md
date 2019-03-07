@@ -9,6 +9,8 @@ app initialized
 >>> from models import foo
 >>> foo.new()
 model making new foo
+subscriber making bar jams:
+barjamfoo
 subscriber making foo jams:
 foojam
 'foo'
